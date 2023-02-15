@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 export default defineConfig({
   title: 'et-design',
