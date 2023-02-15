@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
-
 export default defineConfig({
   base: '/et-design/',
   title: 'et-design',
