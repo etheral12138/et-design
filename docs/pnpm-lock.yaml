@@ -4,15 +4,19 @@ importers:
 
   .:
     specifiers:
+      '@vitepress-demo-preview/component': ^2.1.0
+      '@vitepress-demo-preview/plugin': ^1.1.6
       et-design: 1.1.3
       vitepress: 1.0.0-alpha.45
       vitepress-theme-demoblock: ^2.0.1
-      vue: ^3.2.45
+      vue: 3.2.44
     dependencies:
+      '@vitepress-demo-preview/component': 2.1.0_vi4uqrilmfoyumexhdez37n26m
+      '@vitepress-demo-preview/plugin': 1.1.6_vi4uqrilmfoyumexhdez37n26m
       et-design: 1.1.3
       vitepress: 1.0.0-alpha.45
       vitepress-theme-demoblock: 2.0.2
-      vue: 3.2.47
+      vue: 3.2.44
 
 packages:
 
@@ -577,6 +581,28 @@ packages:
       vue: ^3.2.25
     dependencies:
       vue: 3.2.47
+    dev: false
+
+  /@vitepress-demo-preview/component/2.1.0_vi4uqrilmfoyumexhdez37n26m:
+    resolution: {integrity: sha512-5UCFqHuqslnzv228OQc2fzwrg6uogwuKhNlQfz4OBVKAS3iVqB8/1PftfghL1HfV08s7Y96IC/HMOnoEoTtImA==}
+    peerDependencies:
+      vitepress: '*'
+      vue: ^3.2.0
+    dependencies:
+      vitepress: 1.0.0-alpha.45
+      vue: 3.2.44
+    dev: false
+
+  /@vitepress-demo-preview/plugin/1.1.6_vi4uqrilmfoyumexhdez37n26m:
+    resolution: {integrity: sha512-7T+r6ER0Zeis71Ky53xH2pznlhDOongF3s9KHfz+7DHx9W3OTY6rMF6VQB/7nwDXaTuEPwREYBgH1o+G+KGJJQ==}
+    peerDependencies:
+      vitepress: '*'
+      vue: ^3.2.0
+    dependencies:
+      markdown-it: 13.0.1
+      markdown-it-container: 3.0.0
+      vitepress: 1.0.0-alpha.45
+      vue: 3.2.44
     dev: false
 
   /@vue/compiler-core/3.2.44:

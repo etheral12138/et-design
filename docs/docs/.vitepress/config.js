@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
+import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 export default defineConfig({
   title: 'et-design',
   layout: 'home',
-
   themeConfig: {
     nav: [
       {text: "指南", link: "/guide/index"},
@@ -37,10 +37,13 @@ export default defineConfig({
     }
   },
   markdown: {
-    config: (md) => {
-      md.use(demoBlockPlugin)
-    }
-  }})
+        config(md) {
+  md.use(demoBlockPlugin, {
+    customClass: 'demoblock-custom'
+  })
+}
+}
+})
 
 
 // function getDemoblock() {
