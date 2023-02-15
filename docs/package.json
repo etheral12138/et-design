@@ -5,8 +5,15 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs --port 8080",
-    "docs:build": "vitepress build docs --output dist",
+    "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   },
   "keywords": [],
   "author": "",
