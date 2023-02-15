@@ -4,6 +4,8 @@ export default defineConfig({
   title: 'et-design',
   layout: 'home',
   themeConfig: {
+    siteTitle:false,
+    logo:"./logo.png",
     nav: [
       {text: "指南", link: "/guide/index"},
       {text: "组件", link: "/components/button"},
