@@ -47,7 +47,7 @@ importers:
 
   packages/ui:
     specifiers:
-      '@et-design/components': workspace:^1.0.0
+      '@et-design/components': ^1.0.0
       '@iconify-json/ic': 1.1.4
       '@vitejs/plugin-vue': ^4.0.0
       sass: ^1.58.0
