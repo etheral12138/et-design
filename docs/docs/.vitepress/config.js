@@ -33,8 +33,7 @@ function getSidebar() {
         items: [
           // This shows `/guide/index.md` page.
           { text: '介绍', link: '/guide/' }, // /guide/index.md
-          { text: '快速上手', link: '/guide/install' }, // /guide/one.md
-          { text: '架构设计', link: '/guide/design' } // /guide/two.md
+          { text: '快速上手', link: '/guide/install' } // /guide/one.md
         ]
       }
     ],
@@ -50,13 +49,6 @@ function getSidebar() {
           { text: 'Tag 标签', link: '/components/tag' }
         ]
       },
-      {
-        text: '其他',
-        items: [
-          // This shows `/config/index.md` page.
-          { text: 'Divider 分割线', link: '/components/divider' }
-        ]
-      }
     ]
   }
 }
