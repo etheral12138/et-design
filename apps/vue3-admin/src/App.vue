@@ -1,7 +1,7 @@
 
 <script setup lang="ts">
 import UnoTest from './components/uno-test/index.vue'
-// import {EtButton} from 'et-design'
+// import EtButton from "et-design"
 </script>
 
 <template>
