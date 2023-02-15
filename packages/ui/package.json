@@ -1,6 +1,6 @@
 {
   "name": "et-design",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./dist/ui.umd.js",
   "module": "./dist/ui.es.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
-    "@et-design/components": "workspace:^1.0.0",
+    "@et-design/components": "^1.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "sass": "^1.58.0",
     "vite-plugin-dts": "^1.7.2",

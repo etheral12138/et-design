@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "keywords": [],
-  "author": "",
+  "author": "etheral",
   "license": "MIT",
   "dependencies": {
     "sass": "^1.58.0",
