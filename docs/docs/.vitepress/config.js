@@ -3,6 +3,7 @@ import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 export default defineConfig({
   title: 'et-design',
   layout: 'home',
+
   themeConfig: {
     nav: [
       {text: "指南", link: "/guide/index"},
