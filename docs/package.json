@@ -17,9 +17,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "et-design": "1.1.0",
+    "et-design": "1.1.3",
     "vitepress": "1.0.0-alpha.45",
     "vitepress-theme-demoblock": "^2.0.1",
     "vue": "^3.2.45"
