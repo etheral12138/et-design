@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "description": "组件库",
+  "description": "Vue3组件库",
   "keywords": [],
-  "author": "kongweigen",
-  "license": "ISC",
+  "author": "etheral",
+  "license": "MIT",
   "devDependencies": {
     "turbo": "^1.7.3"
   }
