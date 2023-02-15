@@ -1,0 +1,26 @@
+{
+  "name": "et-design",
+  "version": "1.1.0",
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.es.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "tsc"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
+    "typescript": "^4.9.4",
+    "unocss": "0.45.6",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@et-design/components": "workspace:^1.0.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.58.0",
+    "vite-plugin-dts": "^1.7.2",
+    "vue": "^3.2.45"
+  }
+}
