@@ -27,7 +27,7 @@ importers:
 
   docs:
     specifiers:
-      et-design: workspace:^1.0.0
+      et-design: 1.1.0
       vitepress: 1.0.0-alpha.45
       vitepress-theme-demoblock: ^2.0.1
       vue: ^3.2.45
@@ -1035,7 +1035,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: registry.npmmirror.com/vite/4.1.0
+      vite: registry.npmmirror.com/vite/4.1.0_sass@1.58.0
       vue: registry.npmmirror.com/vue/3.2.47
 
   registry.npmmirror.com/@volar/language-core/1.0.24:
