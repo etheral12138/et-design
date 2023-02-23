@@ -22,7 +22,6 @@ export default defineConfig({
           ]
         }
       ],
-
       // 当用户在 `配置` 目录页面下将会展示这个侧边栏
       '/components/': [
         {
