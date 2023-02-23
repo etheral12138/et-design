@@ -18,7 +18,7 @@ export default defineConfig({
           items: [
             // This shows `/guide/index.md` page.
             {text: '介绍', link: '/guide/'}, // /guide/index.md
-            {text: '快速上手', link: '/guide/install'} // /guide/one.md
+            {text: '快速上手', link: '/guide/installation'} // /guide/one.md
           ]
         }
       ],
